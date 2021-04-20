@@ -1,4 +1,4 @@
-module github.com/t-900-a/gemini-fortune-bot
+module github.com/t-900-a/gemini-jukebox-bot
 
 go 1.16
 
