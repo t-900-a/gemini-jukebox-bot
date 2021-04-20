@@ -119,7 +119,7 @@ func main() {
 	}
 
 	// start the radio
-	exec.Command("/usr/bin/mpc play")
+	cmd := exec.Command("/usr/bin/mpc play")
 	cmd.Start()
 
 	if len(txHash) > 0 {
