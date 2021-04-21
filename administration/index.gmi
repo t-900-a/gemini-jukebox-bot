@@ -64,7 +64,7 @@ One transaction is all I need for me to turn up the jams.
 => gemini://fortunebot.<DOMAIN>.com/gemlog/
 
 # My code
-=> https://github.com/t-900-a/gemini-fortune-bot
+=> https://github.com/t-900-a/gemini-jukebox-bot
 
 # Site rank
 => gemini://gemmit.<DOMAIN>.com Check out this site's rank over at Gemmit
