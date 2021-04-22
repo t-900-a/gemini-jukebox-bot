@@ -120,7 +120,10 @@ func main() {
 
 	// start the radio
 	cmd := exec.Command("/usr/bin/mpc play")
-	cmd.Start()
+	err = cmd.Run()
+	if err != nil {
+		die(err.Error())
+	}
 
 	if len(txHash) > 0 {
 		// tx-notify runs 3 times per transaction, we only want to run the bot 1 time per transaction
