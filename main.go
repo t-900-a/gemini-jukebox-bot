@@ -119,7 +119,7 @@ func main() {
 	}
 
 	// start the radio
-	cmd := exec.Command("/usr/bin/mpc play")
+	cmd := exec.Command("mpc", "play")
 	err = cmd.Run()
 	if err != nil {
 		die(err.Error())
